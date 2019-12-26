@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6adfa935-7291-4732-83c0-9d8495f56284" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadcoreknowledge/stopthread/volatiledemo/WrongWayVolatileCantStop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadcoreknowledge/stopthread/volatiledemo/WrongWayVolatileCantStop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bingfa/threadcoreknowledge/stopthread/volatiledemo/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bingfa/threadcoreknowledge/stopthread/volatiledemo/Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bingfa/threadcoreknowledge/stopthread/volatiledemo/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bingfa/threadcoreknowledge/stopthread/volatiledemo/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bingfa/threadcoreknowledge/stopthread/volatiledemo/WrongWayVolatileCantStop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bingfa/threadcoreknowledge/stopthread/volatiledemo/WrongWayVolatileCantStop.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threadcoreknowledge/sixstates/NewRunnableTerminated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadcoreknowledge/sixstates/NewRunnableTerminated.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +25,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1VHgtjGFdDf4Ptcf56NRcq1frdL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -50,39 +55,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WrongWayVolatileFix">
+  <component name="RunManager" selected="Application.BlockedWaitingTimeWaiting">
+    <configuration name="BlockedWaitingTimeWaiting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.sixstates.BlockedWaitingTimeWaiting" />
+      <module name="bingfa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threadcoreknowledge.sixstates.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewRunnableTerminated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.sixstates.NewRunnableTerminated" />
+      <module name="bingfa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threadcoreknowledge.sixstates.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RightWayStopThreadWithSleep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.stopthread.RightWayStopThreadWithSleep" />
       <module name="bingfa" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="threadcoreknowledge.stopthread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StopThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.stopthread.StopThread" />
-      <module name="bingfa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="threadcoreknowledge.stopthread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WrongWayVolatile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.stopthread.volatiledemo.WrongWayVolatile" />
-      <module name="bingfa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="threadcoreknowledge.stopthread.volatiledemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BlockedWaitingTimeWaiting" />
+        <item itemvalue="Application.NewRunnableTerminated" />
         <item itemvalue="Application.WrongWayVolatileFix" />
         <item itemvalue="Application.RightWayStopThreadWithSleep" />
         <item itemvalue="Application.WrongWayVolatileCantStop" />
-        <item itemvalue="Application.WrongWayVolatile" />
-        <item itemvalue="Application.StopThread" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +150,7 @@
       <workItem from="1577169122790" duration="1940000" />
       <workItem from="1577185254270" duration="3500000" />
       <workItem from="1577189621720" duration="4001000" />
-      <workItem from="1577361948140" duration="282000" />
+      <workItem from="1577361948140" duration="1863000" />
     </task>
     <servers />
   </component>
