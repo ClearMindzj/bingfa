@@ -1,7 +1,6 @@
 package threadcoreknowledge.stopthread.volatiledemo;
 
 import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.BlockingDeque;
 import java.util.concurrent.BlockingQueue;
 
 /**
@@ -44,7 +43,7 @@ class Product implements Runnable{
         try {
             while (num < 10000 && !cancled) {
                 if (num % 100 == 0) {
-                    storage.put(num);
+                    storage.put(num);   //阻塞了不会去执行while循环
                     System.out.println(num + "放到仓库中");
                 }
                 num++;
