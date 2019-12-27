@@ -27,7 +27,7 @@ public class ProduceConsumerModel {
         @Override
         public void run() {
 
-            for (int i=0;i<100;i++){
+            for (int i=0;i<1000;i++){
              stroage.put();
             }
         }
@@ -41,7 +41,7 @@ public class ProduceConsumerModel {
         @Override
         public void run() {
 
-            for (int i=0;i<100;i++){
+            for (int i=0;i<1000;i++){
                 stroage.take();
             }
         }
@@ -50,7 +50,7 @@ public class ProduceConsumerModel {
         private int maxSize;
         private LinkedList<Date> storage;
         public  EventStroage(){
-            maxSize=10;
+            maxSize=100;
             storage=new LinkedList<>();
         }
         public synchronized void put(){
@@ -66,7 +66,7 @@ public class ProduceConsumerModel {
             notify();
         }
         public synchronized void take(){
-            while (storage.size()==0){
+            while(storage.size()==0){
                 try {
                     wait();
                 } catch (InterruptedException e) {
