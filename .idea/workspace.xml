@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6adfa935-7291-4732-83c0-9d8495f56284" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threadcoreknowledge/threadobjectcommonclass/ThreadInterrupt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadcoreknowledge/threadobjectcommonclass/SleepInterrupt.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,9 +52,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SleepDontReleaseLock">
-    <configuration name="ProduceConsumerModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.threadobjectcommonclass.ProduceConsumerModel" />
+  <component name="RunManager" selected="Application.JoinInterrupt">
+    <configuration name="Join" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.threadobjectcommonclass.Join" />
+      <module name="bingfa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threadcoreknowledge.threadobjectcommonclass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JoinInterrupt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.threadobjectcommonclass.JoinInterrupt" />
       <module name="bingfa" />
       <extension name="coverage">
         <pattern>
@@ -91,21 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitNotifyPrintOddEveWait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.threadobjectcommonclass.WaitNotifyPrintOddEveWait" />
-      <module name="bingfa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="threadcoreknowledge.threadobjectcommonclass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WaitNotifyPrintOddEvnSyn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.threadobjectcommonclass.WaitNotifyPrintOddEvnSyn" />
+    <configuration name="SleepInterrupt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.threadobjectcommonclass.SleepInterrupt" />
       <module name="bingfa" />
       <extension name="coverage">
         <pattern>
@@ -119,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JoinInterrupt" />
+        <item itemvalue="Application.Join" />
+        <item itemvalue="Application.SleepInterrupt" />
         <item itemvalue="Application.SleepDontReleaseLock" />
         <item itemvalue="Application.SleepDontReleaseMonitor" />
-        <item itemvalue="Application.ProduceConsumerModel" />
-        <item itemvalue="Application.WaitNotifyPrintOddEveWait" />
-        <item itemvalue="Application.WaitNotifyPrintOddEvnSyn" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +148,8 @@
       <workItem from="1577185254270" duration="3500000" />
       <workItem from="1577189621720" duration="4001000" />
       <workItem from="1577361948140" duration="2204000" />
-      <workItem from="1577412513923" duration="13648000" />
+      <workItem from="1577412513923" duration="13821000" />
+      <workItem from="1577933212288" duration="2416000" />
     </task>
     <servers />
   </component>
