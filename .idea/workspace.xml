@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6adfa935-7291-4732-83c0-9d8495f56284" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadcoreknowledge/threadobjectcommonclass/ThreadInterrupt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadcoreknowledge/threadobjectcommonclass/SleepInterrupt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threadcoreknowledge/threadobjectcommonclass/JoinThreadState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadcoreknowledge/threadobjectcommonclass/JoinThreadState.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,9 +52,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JoinInterrupt">
-    <configuration name="Join" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.threadobjectcommonclass.Join" />
+  <component name="RunManager" selected="Application.UseOwnUncaughtExceptionHandler">
+    <configuration name="CurrentThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.threadobjectcommonclass.CurrentThread" />
       <module name="bingfa" />
       <extension name="coverage">
         <pattern>
@@ -66,8 +66,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JoinInterrupt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.threadobjectcommonclass.JoinInterrupt" />
+    <configuration name="ExceptionInChildThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uncaughtexcrption.ExceptionInChildThread" />
+      <module name="bingfa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="uncaughtexcrption.Use" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Id" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.threadobjectcommonclass.Id" />
       <module name="bingfa" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SleepDontReleaseLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.threadobjectcommonclass.SleepDontReleaseLock" />
+    <configuration name="JoinPrinciple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.threadobjectcommonclass.JoinPrinciple" />
       <module name="bingfa" />
       <extension name="coverage">
         <pattern>
@@ -92,25 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SleepDontReleaseMonitor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.threadobjectcommonclass.SleepDontReleaseMonitor" />
+    <configuration name="UseOwnUncaughtExceptionHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="uncaughtexcrption.UseOwnUncaughtExceptionHandler" />
       <module name="bingfa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="threadcoreknowledge.threadobjectcommonclass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SleepInterrupt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.threadobjectcommonclass.SleepInterrupt" />
-      <module name="bingfa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="threadcoreknowledge.threadobjectcommonclass.*" />
+          <option name="PATTERN" value="uncaughtexcrption.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JoinInterrupt" />
-        <item itemvalue="Application.Join" />
-        <item itemvalue="Application.SleepInterrupt" />
-        <item itemvalue="Application.SleepDontReleaseLock" />
-        <item itemvalue="Application.SleepDontReleaseMonitor" />
+        <item itemvalue="Application.UseOwnUncaughtExceptionHandler" />
+        <item itemvalue="Application.ExceptionInChildThread" />
+        <item itemvalue="Application.Id" />
+        <item itemvalue="Application.CurrentThread" />
+        <item itemvalue="Application.JoinPrinciple" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +149,7 @@
       <workItem from="1577189621720" duration="4001000" />
       <workItem from="1577361948140" duration="2204000" />
       <workItem from="1577412513923" duration="13821000" />
-      <workItem from="1577933212288" duration="2416000" />
+      <workItem from="1577933212288" duration="9059000" />
     </task>
     <servers />
   </component>
