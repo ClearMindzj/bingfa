@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6adfa935-7291-4732-83c0-9d8495f56284" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadcoreknowledge/threadobjectcommonclass/JoinThreadState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadcoreknowledge/threadobjectcommonclass/JoinThreadState.java" afterDir="false" />
-    </list>
+    <list default="true" id="6adfa935-7291-4732-83c0-9d8495f56284" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +146,7 @@
       <workItem from="1577189621720" duration="4001000" />
       <workItem from="1577361948140" duration="2204000" />
       <workItem from="1577412513923" duration="13821000" />
-      <workItem from="1577933212288" duration="9059000" />
+      <workItem from="1577933212288" duration="9238000" />
     </task>
     <servers />
   </component>

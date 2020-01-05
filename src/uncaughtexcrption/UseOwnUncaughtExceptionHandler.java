@@ -13,7 +13,7 @@ public class UseOwnUncaughtExceptionHandler implements Runnable {
         Thread.sleep(300);
         new Thread(new UseOwnUncaughtExceptionHandler(), "MyThread-3").start();
         Thread.sleep(300);
-        new Thread(new UseOwnUncaughtExceptionHandler(), "MyThread-4 ").start();
+        new Thread(new UseOwnUncaughtExceptionHandler(), "MyThread-5").start();
         Thread.sleep(300);
     }
 
