@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6adfa935-7291-4732-83c0-9d8495f56284" name="Default Changelist" comment="" />
+    <list default="true" id="6adfa935-7291-4732-83c0-9d8495f56284" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bingfa/uncaughtexcrption/UseOwnUncaughtExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bingfa/uncaughtexcrption/UseOwnUncaughtExceptionHandler.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +52,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UseOwnUncaughtExceptionHandler">
-    <configuration name="CurrentThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.threadobjectcommonclass.CurrentThread" />
+  <component name="RunManager" selected="Application.MultiThreadError4">
+    <configuration name="MultiThreadError" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="background.MultiThreadError" />
       <module name="bingfa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="threadcoreknowledge.threadobjectcommonclass.*" />
+          <option name="PATTERN" value="background.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExceptionInChildThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uncaughtexcrption.ExceptionInChildThread" />
+    <configuration name="MultiThreadError4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="background.MultiThreadError4" />
       <module name="bingfa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="uncaughtexcrption.Use" />
+          <option name="PATTERN" value="background.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Id" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.threadobjectcommonclass.Id" />
+    <configuration name="MutiThreadsError" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="background.MutiThreadsError" />
       <module name="bingfa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="threadcoreknowledge.threadobjectcommonclass.*" />
+          <option name="PATTERN" value="background.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JoinPrinciple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.threadobjectcommonclass.JoinPrinciple" />
+    <configuration name="ProduceConsumerModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.threadobjectcommonclass.ProduceConsumerModel" />
       <module name="bingfa" />
       <extension name="coverage">
         <pattern>
@@ -117,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiThreadError4" />
+        <item itemvalue="Application.MultiThreadError" />
+        <item itemvalue="Application.MutiThreadsError" />
+        <item itemvalue="Application.ProduceConsumerModel" />
         <item itemvalue="Application.UseOwnUncaughtExceptionHandler" />
-        <item itemvalue="Application.ExceptionInChildThread" />
-        <item itemvalue="Application.Id" />
-        <item itemvalue="Application.CurrentThread" />
-        <item itemvalue="Application.JoinPrinciple" />
       </list>
     </recent_temporary>
   </component>
@@ -147,6 +150,9 @@
       <workItem from="1577361948140" duration="2204000" />
       <workItem from="1577412513923" duration="13821000" />
       <workItem from="1577933212288" duration="9238000" />
+      <workItem from="1578208077837" duration="53000" />
+      <workItem from="1578230477373" duration="36000" />
+      <workItem from="1578294693772" duration="6331000" />
     </task>
     <servers />
   </component>
