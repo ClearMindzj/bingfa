@@ -9,7 +9,7 @@ public class MultiThreadError4{
 
     public static void main(String[] args) throws InterruptedException {
         new PointMaker().start();
-        Thread.sleep(105);
+        Thread.sleep(50);
         if(point!=null){
             System.out.println(point);
         }

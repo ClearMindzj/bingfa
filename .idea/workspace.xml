@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6adfa935-7291-4732-83c0-9d8495f56284" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bingfa/uncaughtexcrption/UseOwnUncaughtExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bingfa/uncaughtexcrption/UseOwnUncaughtExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bingfa/background/MultiThreadError4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bingfa/background/MultiThreadError4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/background/MultiThreadError4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/background/MultiThreadError4.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MultiThreadError4">
+  <component name="RunManager" selected="Application.MultiThreadsError6">
     <configuration name="MultiThreadError" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="background.MultiThreadError" />
       <module name="bingfa" />
@@ -79,6 +80,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MultiThreadsError5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="background.MultiThreadsError5" />
+      <module name="bingfa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="background.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiThreadsError6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="background.MultiThreadsError6" />
+      <module name="bingfa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="background.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MutiThreadsError" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="background.MutiThreadsError" />
       <module name="bingfa" />
@@ -92,39 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProduceConsumerModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.threadobjectcommonclass.ProduceConsumerModel" />
-      <module name="bingfa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="threadcoreknowledge.threadobjectcommonclass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UseOwnUncaughtExceptionHandler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="uncaughtexcrption.UseOwnUncaughtExceptionHandler" />
-      <module name="bingfa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="uncaughtexcrption.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiThreadsError6" />
+        <item itemvalue="Application.MultiThreadsError5" />
         <item itemvalue="Application.MultiThreadError4" />
         <item itemvalue="Application.MultiThreadError" />
         <item itemvalue="Application.MutiThreadsError" />
-        <item itemvalue="Application.ProduceConsumerModel" />
-        <item itemvalue="Application.UseOwnUncaughtExceptionHandler" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +153,8 @@
       <workItem from="1577933212288" duration="9238000" />
       <workItem from="1578208077837" duration="53000" />
       <workItem from="1578230477373" duration="36000" />
-      <workItem from="1578294693772" duration="6331000" />
+      <workItem from="1578294693772" duration="6386000" />
+      <workItem from="1578549047541" duration="4670000" />
     </task>
     <servers />
   </component>
