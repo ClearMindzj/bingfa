@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6adfa935-7291-4732-83c0-9d8495f56284" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/deadlock/MultiTransferMoney.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/deadlock/MultiTransferMoney.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DiningPhilosophers$Philosopher">
+  <component name="RunManager" selected="Application.LiveLock">
     <configuration name="DiningPhilosophers$Philosopher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="deadlock.DiningPhilosophers$Philosopher" />
       <module name="bingfa" />
@@ -68,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FieldVisibility" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jmm.FieldVisibility" />
+    <configuration name="LiveLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="deadlock.LiveLock" />
       <module name="bingfa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jmm.*" />
+          <option name="PATTERN" value="deadlock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,8 +106,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransferMoney" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="deadlock.TransferMoney" />
+    <configuration name="TryLockDeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="deadlock.TryLockDeadLock" />
       <module name="bingfa" />
       <extension name="coverage">
         <pattern>
@@ -122,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LiveLock" />
+        <item itemvalue="Application.TryLockDeadLock" />
         <item itemvalue="Application.DiningPhilosophers$Philosopher" />
         <item itemvalue="Application.ThreadMXBeanDetection" />
         <item itemvalue="Application.MultiTransferMoney" />
-        <item itemvalue="Application.TransferMoney" />
-        <item itemvalue="Application.FieldVisibility" />
       </list>
     </recent_temporary>
   </component>
@@ -162,6 +161,7 @@
       <workItem from="1578721901650" duration="1855000" />
       <workItem from="1578813716855" duration="1564000" />
       <workItem from="1579063288113" duration="7869000" />
+      <workItem from="1579151903719" duration="4541000" />
     </task>
     <servers />
   </component>
