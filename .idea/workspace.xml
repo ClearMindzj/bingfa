@@ -27,6 +27,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -39,6 +40,9 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="singleton" />
       <recent name="threadcoreknowledge.stopthread" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -53,7 +57,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LiveLock">
+  <component name="RunManager" selected="Application.Hello">
     <configuration name="DiningPhilosophers$Philosopher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="deadlock.DiningPhilosophers$Philosopher" />
       <module name="bingfa" />
@@ -67,34 +71,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Hello" />
+      <module name="bingfa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LiveLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="deadlock.LiveLock" />
-      <module name="bingfa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="deadlock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MultiTransferMoney" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="deadlock.MultiTransferMoney" />
-      <module name="bingfa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="deadlock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadMXBeanDetection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="deadlock.ThreadMXBeanDetection" />
       <module name="bingfa" />
       <extension name="coverage">
         <pattern>
@@ -119,13 +110,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WaitNotifyAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.threadobjectcommonclass.WaitNotifyAll" />
+      <module name="bingfa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threadcoreknowledge.threadobjectcommonclass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Hello" />
+        <item itemvalue="Application.WaitNotifyAll" />
         <item itemvalue="Application.LiveLock" />
         <item itemvalue="Application.TryLockDeadLock" />
         <item itemvalue="Application.DiningPhilosophers$Philosopher" />
-        <item itemvalue="Application.ThreadMXBeanDetection" />
-        <item itemvalue="Application.MultiTransferMoney" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +165,9 @@
       <workItem from="1578721901650" duration="1855000" />
       <workItem from="1578813716855" duration="1564000" />
       <workItem from="1579063288113" duration="7869000" />
-      <workItem from="1579151903719" duration="4541000" />
+      <workItem from="1579151903719" duration="5331000" />
+      <workItem from="1579173582072" duration="409000" />
+      <workItem from="1580398667566" duration="1016000" />
     </task>
     <servers />
   </component>
