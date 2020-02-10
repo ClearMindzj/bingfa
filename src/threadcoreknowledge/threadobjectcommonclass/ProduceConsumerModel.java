@@ -1,9 +1,7 @@
 package threadcoreknowledge.threadobjectcommonclass;
 
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.LinkedList;
-import java.util.List;
 
 /**
  * Created by zhengjie on 2019/12/27.
@@ -11,7 +9,7 @@ import java.util.List;
  */
 public class ProduceConsumerModel {
     public static void main(String[] args) {
-        EventStroage stroage=new EventStroage();
+        EventStoreage stroage=new EventStoreage();
         Producer producer=new Producer(stroage);
         Consumer consumer=new Consumer(stroage);
         new Thread(producer).start();
@@ -19,8 +17,8 @@ public class ProduceConsumerModel {
     }
 }
     class Producer implements Runnable{
-     private EventStroage stroage;
-     public  Producer(EventStroage stroage){
+     private EventStoreage stroage;
+     public  Producer(EventStoreage stroage){
          this.stroage=stroage;
 
      }
@@ -33,8 +31,8 @@ public class ProduceConsumerModel {
         }
     }
     class Consumer implements Runnable{
-        private EventStroage stroage;
-        public  Consumer(EventStroage stroage){
+        private EventStoreage stroage;
+        public  Consumer(EventStoreage stroage){
             this.stroage=stroage;
 
         }
@@ -46,10 +44,10 @@ public class ProduceConsumerModel {
             }
         }
     }
-    class EventStroage{
+    class EventStoreage {
         private int maxSize;
         private LinkedList<Date> storage;
-        public  EventStroage(){
+        public EventStoreage(){
             maxSize=100;
             storage=new LinkedList<>();
         }

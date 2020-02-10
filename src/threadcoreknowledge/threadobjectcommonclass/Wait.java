@@ -17,6 +17,7 @@ public class Wait {
                 System.out.println(Thread.currentThread().getName()+"开始执行了");
                 try {
                     object.wait();
+                    System.out.println("线程"+Thread.currentThread().getName()+"等待结束");
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
