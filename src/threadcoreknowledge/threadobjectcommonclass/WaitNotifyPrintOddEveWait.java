@@ -30,6 +30,7 @@ public class WaitNotifyPrintOddEveWait {
                         } catch (InterruptedException e) {
                             e.printStackTrace();
                         }
+
                     }
                 }
             }

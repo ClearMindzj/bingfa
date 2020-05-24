@@ -3,6 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="6adfa935-7291-4732-83c0-9d8495f56284" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bingfa/singleton/Singleton2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bingfa/singleton/Singleton2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bingfa/threadcoreknowledge/threadobjectcommonclass/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bingfa/threadcoreknowledge/threadobjectcommonclass/Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bingfa/threadcoreknowledge/threadobjectcommonclass/EventStroage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bingfa/threadcoreknowledge/threadobjectcommonclass/ProduceConsumerModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bingfa/threadcoreknowledge/threadobjectcommonclass/ProduceConsumerModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bingfa/threadcoreknowledge/threadobjectcommonclass/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bingfa/threadcoreknowledge/threadobjectcommonclass/Producer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bingfa/threadcoreknowledge/threadobjectcommonclass/WaitNotifyPrintOddEveWait$TurningRunning.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bingfa/threadcoreknowledge/threadobjectcommonclass/WaitNotifyPrintOddEveWait$TurningRunning.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/singleton/Singleton2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/singleton/Singleton2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threadcoreknowledge/threadobjectcommonclass/ProduceConsumerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadcoreknowledge/threadobjectcommonclass/ProduceConsumerModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threadcoreknowledge/threadobjectcommonclass/WaitNotifyPrintOddEveWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadcoreknowledge/threadobjectcommonclass/WaitNotifyPrintOddEveWait.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,48 +66,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Wait">
-    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Hello" />
-      <module name="bingfa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LiveLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="deadlock.LiveLock" />
-      <module name="bingfa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="deadlock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TryLockDeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="deadlock.TryLockDeadLock" />
-      <module name="bingfa" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="deadlock.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Wait" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.threadobjectcommonclass.Wait" />
+  <component name="RunManager" selected="Application.ProducerConsumer">
+    <configuration name="ProduceConsumerModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.threadobjectcommonclass.ProduceConsumerModel" />
       <module name="bingfa" />
       <extension name="coverage">
         <pattern>
@@ -110,12 +80,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WaitNotifyAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.threadobjectcommonclass.WaitNotifyAll" />
+    <configuration name="ProducerConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threadcoreknowledge.rentlock.ProducerConsumer" />
       <module name="bingfa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="threadcoreknowledge.threadobjectcommonclass.*" />
+          <option name="PATTERN" value="threadcoreknowledge.rentlock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SynchorizedStaticAndNormal8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="synchtonized.SynchorizedStaticAndNormal8" />
+      <module name="bingfa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="synchtonized.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SynchornizedDifferenceMethod7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="synchtonized.SynchornizedDifferenceMethod7" />
+      <module name="bingfa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="synchtonized.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SynchronizedYesandNo6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="synchtonized.SynchronizedYesandNo6" />
+      <module name="bingfa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="synchtonized.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Wait" />
-        <item itemvalue="Application.Hello" />
-        <item itemvalue="Application.WaitNotifyAll" />
-        <item itemvalue="Application.LiveLock" />
-        <item itemvalue="Application.TryLockDeadLock" />
+        <item itemvalue="Application.ProducerConsumer" />
+        <item itemvalue="Application.ProduceConsumerModel" />
+        <item itemvalue="Application.SynchronizedYesandNo6" />
+        <item itemvalue="Application.SynchorizedStaticAndNormal8" />
+        <item itemvalue="Application.SynchornizedDifferenceMethod7" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +177,24 @@
       <workItem from="1579151903719" duration="5331000" />
       <workItem from="1579173582072" duration="409000" />
       <workItem from="1580398667566" duration="1960000" />
+      <workItem from="1581348134717" duration="791000" />
+      <workItem from="1582336908114" duration="1417000" />
+      <workItem from="1582782302950" duration="262000" />
+      <workItem from="1582854330777" duration="763000" />
+      <workItem from="1583058503612" duration="1236000" />
+      <workItem from="1583298398678" duration="4108000" />
+      <workItem from="1583509637401" duration="64000" />
+      <workItem from="1584003958219" duration="359000" />
+      <workItem from="1584272184174" duration="2094000" />
+      <workItem from="1584469073445" duration="97000" />
+      <workItem from="1584516225275" duration="1000" />
+      <workItem from="1584700950842" duration="1000" />
+      <workItem from="1585057245022" duration="731000" />
+      <workItem from="1585058144864" duration="2000" />
+      <workItem from="1585812015267" duration="825000" />
+      <workItem from="1585904756670" duration="1961000" />
+      <workItem from="1586355405524" duration="6952000" />
+      <workItem from="1590221283810" duration="205000" />
     </task>
     <servers />
   </component>

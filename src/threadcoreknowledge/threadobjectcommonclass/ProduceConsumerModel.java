@@ -66,7 +66,7 @@ public class ProduceConsumerModel {
         public synchronized void take(){
             while(storage.size()==0){
                 try {
-                    wait();
+                   wait();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
